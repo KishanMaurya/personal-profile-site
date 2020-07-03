@@ -1,7 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 .header{
-    min-height: 88vh;
+    min-height: 100vh;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -146,6 +146,10 @@
     }
 }
 
+.m-bottom {
+    position:relative;
+    margin-bottom: 30px;
+}
 .random-shape:after {
     font-family: FontAwesome;
     content: "\f005";
