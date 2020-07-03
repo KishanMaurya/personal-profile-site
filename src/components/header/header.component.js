@@ -15,7 +15,8 @@ const Header = () => {
       {
         shapes.map(shape => {
           return (
-            <div className={`shape-container--${shape} shape-animation`}><div aria-hidden="true" class="random-shape"></div></div>
+            <div className={`shape-container--${shape} shape-animation`}>
+            <div aria-hidden="true" class="random-shape"></div></div>
           )
         })
       }
@@ -36,13 +37,14 @@ const Header = () => {
           </p>
           </div>
 
-          <a href="#projects"><Button>See Sample Projects</Button></a>
+          <a href="#projects" className="mb-5"><Button>See Sample Projects</Button></a>
+
         </div>
 
         <div className="header__right">
           <div className="header__image">
-            <img src="https://res.cloudinary.com/lindadxk/image/upload/w_1000,c_fill,ar_1:1,g_auto,r_max,b_rgb:262c35/v1588042230/me.jpg"
-              alt="headshot of Linda Ikechukwu">
+            <img src="https://firebasestorage.googleapis.com/v0/b/blog-6c4ce.appspot.com/o/img%2FWhatsApp%20Image%202020-07-03%20at%207.45.05%20PM.jpeg?alt=media&token=4c13c360-09d5-46be-ae0f-873db07cbb82"
+              alt="headshot of Mansi Agarawal">
             </img>
             <div className="header__image__overlay"></div>
           </div>

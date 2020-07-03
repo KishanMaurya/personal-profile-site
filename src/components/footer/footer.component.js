@@ -6,7 +6,7 @@ const Footer = () => {
         <div className="footer">
             <p> 
                 <span role="img" aria-label="Love"> 💖 </span> &  
-                <span role="img" aria-label="Light">✨</span>, From Linda Ikechukwu, Always.
+                <span role="img" aria-label="Light">✨</span>, From Mansi Agarawal, Always.
             </p>
             <p><span>&copy; {new Date().getFullYear()}. Made with Gatsby</span></p>
         </div>
