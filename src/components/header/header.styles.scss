@@ -1,7 +1,7 @@
 @import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
 
 .header{
-    min-height: 100vh;
+    min-height: 88vh;
     background-color: transparent;
     display: flex;
     flex-direction: row;
@@ -27,7 +27,7 @@
 
     &__title h1{
         font-family: 'Ribeye Marrow', cursive;
-        font-size: 6.4rem;
+        font-size: 49px;
         line-height: 87px;
     }
 
@@ -148,7 +148,7 @@
 
 .m-bottom {
     position:relative;
-    margin-bottom: 30px;
+    bottom: 40px;
 }
 .random-shape:after {
     font-family: FontAwesome;

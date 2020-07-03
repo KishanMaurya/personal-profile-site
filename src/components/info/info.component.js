@@ -34,7 +34,7 @@ class Info extends React.Component {
                   </p>
                     <ul className="info__list">
                         <li className="info__list__item">
-                            <h4><a href="https://www.phcschoolofai.org">Port Harcourt School Of AI</a></h4><span></span>
+                            <h4><a href="#">Port Harcourt School Of AI</a></h4><span></span>
                             <p>Community Manager </p>
                         </li>
                     </ul>
@@ -46,19 +46,19 @@ class Info extends React.Component {
                     </p>
                     <ul className="info__list">
                     <li className="info__list__item">
-                            <h4><a target="blank" href="https://bit.ly/scalable-and-maintainable-sass">Architecting Scalable and Maintainable Sass</a></h4><span></span>
+                            <h4><a  href="#">Architecting Scalable and Maintainable Sass</a></h4><span></span>
                             <p>June 2020. Women Who Code - Connect Digital, Global, Online</p>
                         </li>
                         <li className="info__list__item">
-                            <h4><a target="blank" href="https://docs.google.com/presentation/d/174D8Q_I1XEAKdxGzQugh2j9xkj4qYU6zT1LWyNAz8_w/edit?usp=sharing">Automating Responsive Images in HTML</a></h4><span></span>
+                            <h4><a  href="#">Automating Responsive Images in HTML</a></h4><span></span>
                             <p>January 2020. Fronstack, Lagos, Nigeria</p>
                         </li>
                         <li className="info__list__item">
-                            <h4><a target="blank" href="https://drive.google.com/file/d/1V9kv_3VwSxq4Yml-ih0A7OsfG-ATB3Xi/view?usp=sharing">Contributing to Open Source; First Steps</a></h4><span></span>
+                            <h4><a  href="#">Contributing to Open Source; First Steps</a></h4><span></span>
                             <p>November 2019. DevFest SE Oko, Nigeria</p>
                         </li >
                         <li className="info__list__item">
-                            <h4><a target="blank" href="https://docs.google.com/presentation/d/1zsMYoRizoLiGMU03pRApIcDACzPwyjwcwiZN8Y1smcY/edit?usp=sharing">Design For Developers</a></h4><span></span>
+                            <h4><a  href="#">Design For Developers</a></h4><span></span>
                             <p>July 2019. NerdFest UNN, Enugu, Nigeria</p>
                         </li>
                     </ul>
