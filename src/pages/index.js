@@ -9,7 +9,7 @@ import Contact from "../components/contact/contact.component"
 const Index = () => {
     return (
       <Layout>
-        <MetaData title="Linda Ikechukwu"/>
+        <MetaData title="Mansi Agarawal"/>
         <Header/>
         <Info/>
         <Projects/>
