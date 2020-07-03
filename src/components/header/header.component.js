@@ -24,7 +24,7 @@ const Header = () => {
 
         <div className="header__left">
           <div className="header__title">
-            <h1>Hi, I’m Mansi </h1>
+            <h1>Hi, I’m Mansi Agarawal</h1>
           </div>
           <div className="header__subtitle">
             <h2>Software Developer (Java + Angular)</h2>
