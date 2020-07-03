@@ -1,0 +1,14 @@
+.react-share__ShareButton{
+    margin-right: 1rem;
+
+    & svg{
+        
+        width: 5rem;
+
+        &:hover{
+          circle{
+            fill: var(--link-color) !important;
+          }
+        }
+    }
+}

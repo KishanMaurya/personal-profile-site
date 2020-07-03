@@ -1,0 +1,92 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    height: 12vh;
+    background-color: var(--bg-dark-1);
+
+    &__item{
+        font-size: 2rem;
+        font-family: 'Rosario', sans-serif;
+
+        &:not(:last-of-type){
+            margin-right: 2rem;
+        }
+
+        .switch {
+            position: relative;
+            display: inline-block;
+            width: 4rem;
+            height: 1.5rem;
+            
+    
+            input {
+                opacity: 0;
+                width: 0;
+                height: 0;
+            }
+    
+            .slider {
+                position: absolute;
+                cursor: pointer;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                background-color: #222;
+                -webkit-transition: 0.4s;
+                transition: 0.4s;
+                border-radius: 34px;
+                border: 1px solid var(--text-color-light);
+            }
+    
+            .slider:before {
+                position: absolute;
+                content: "";
+                height: 2rem;
+                width: 2rem;
+                left: -1px;
+                bottom: -0.3rem;
+                background-color:var(--link-color);
+                -webkit-transition: 0.4s;
+                transition: 0.4s;
+                border-radius: 50%;
+            }
+    
+            input:checked + .slider {
+                background-color: #ccc;
+            }
+
+            input:checked + .slider:before {
+                background-color:var(--bg-dark-1);
+            }
+    
+            input:focus + .slider {
+                box-shadow: 0 0 1px #ccc;
+            }
+    
+            input:checked + .slider:before {
+                -webkit-transform: translateX(20px);
+                -ms-transform: translateX(20px);
+                transform: translateX(20px);
+            }
+
+            @media only screen and (max-width: 280px) {
+                display: none;
+                visibility: hidden;
+            }
+        }
+
+        
+    }
+
+    & a{
+        &:hover{
+            color: var(--link-color);
+            
+        }
+
+        
+    }
+}

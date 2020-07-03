@@ -1,0 +1,25 @@
+.taglist{
+  /*  border: 1px solid var( --component-color);
+   border-radius: 1rem;  */
+   width: 100%;
+   min-height: 10vh;
+   padding: 1rem;
+  /*  box-shadow: 1px 3px 4px rgba(17, 16, 16, 0.6); */
+   
+
+   h2{
+       margin: .5rem 0;
+   }
+
+   ul{
+     list-style-type:none ;
+     padding-left: 0;
+     margin: 1rem 0; 
+     
+   }
+
+  @media only screen and (max-width: 900px) {
+    width: 100%;
+    min-height: 15vh;
+   }
+}

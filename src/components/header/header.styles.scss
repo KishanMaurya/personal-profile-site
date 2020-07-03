@@ -1,0 +1,190 @@
+@import url(https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.css);
+
+.header{
+    min-height: 88vh;
+    background-color: transparent;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 100vw;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+    position: absolute;
+    top: 0;
+    z-index: 100;
+
+    @media only screen and (max-width: 280px) {
+        height: 90rem;
+        top: 17rem;
+    }
+
+    &__left, &__right{
+        width: 40vw;
+    }
+
+    
+
+    &__title h1{
+        font-family: 'Ribeye Marrow', cursive;
+        font-size: 6.4rem;
+        line-height: 87px;
+    }
+
+    &__subtitle h2{
+        font-size: 3rem;
+        line-height: 50px;
+
+    }
+
+    &__description{
+        font-size: 1.8rem;
+        margin-top: 1.5rem;
+
+        @media only screen and (max-width: 280px) {
+            text-align: center;
+        }
+    }
+
+    & h1, & h2, & h3{
+        margin:0;
+        font-weight: normal;
+    }
+
+    &__image {
+        background: radial-gradient( var( --contrast-color) 1px, var(--bg-dark-1) 1px);
+        background-size: 15px 15px;
+        border-radius: 50%;
+        width: 100%;
+        height: 40rem;
+        position: relative;
+        
+        & img{
+            border-radius: 50%;
+            width: 30rem;
+            height: 30rem;
+            position: absolute;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.25);
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+        }
+
+        &__overlay{
+            background:var(--bg-dark-1) ;
+            z-index: 2;
+            position: absolute;
+            width: 30rem;
+            height: 30rem;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            opacity: .6;
+            border-radius: 50%;
+        }
+    }
+
+    @media only screen and (max-width: 1000px) {
+        &__title h1{
+            font-size: 5rem;
+        }
+    
+        &__subtitle h2{
+            font-size: 2.5rem;
+            line-height: 20px;
+        }
+
+    
+    }
+    
+    @media only screen and (max-width: 770px) {
+        flex-direction: column-reverse;
+        padding-top: 8rem;
+        padding-bottom: 8rem;
+
+        &__left, &__right{
+            width: 100%;
+        }
+
+        &__left{
+            padding-bottom: 10rem;
+            margin-top: 3rem;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        &__title h1{
+            font-size: 5rem;
+            line-height: 40px;
+            margin-top: 4rem;
+            margin-bottom: 2rem;
+            text-align: center;
+        }
+    
+        &__subtitle h2{
+            font-size: 2.5rem;
+            line-height: 20px;
+            text-align: center;
+        }
+
+    
+    }
+      
+}
+
+.shape {
+    position: relative;
+    height: 88vh;
+    overflow: hidden;
+    background-color: var(--bg-dark-1);
+
+    @media only screen and (max-width: 770px) {
+        height: 95rem;
+    }
+}
+
+.random-shape:after {
+    font-family: FontAwesome;
+    content: "\f005";
+}
+
+$circle-size: 100px;
+$colors: #FFD700, #FFF8DC, #DB7093, #C2B7FE, #95A9FF;
+$shapes: '\f005', '\f0c8', '\f1db', '\f096', '\f1d8', '\f1cb';
+$shape-count: 50;
+
+@for $i from 1 through $shape-count {
+    $shape-size: random(10);
+    $rotation: random(360);
+    $speed: 40 + random(10);
+    $color-key: random( length($colors) );
+    $shape-color: nth( $colors, $color-key );
+    $shape-key: random( length($shapes) );
+    $shape-type: nth( $shapes, $shape-key );
+    $text: random(10);
+    
+    @keyframes shape-#{$i} {
+        0% {
+            transform: translate3d(0,0,0) rotate(#{$rotation + 0}deg);
+        }
+        100% {
+            transform: translate3d(0,0,0) rotate(#{$rotation + 360}deg);
+        }
+    }
+  
+    .shape-container--#{$i} { 
+        animation: shape-#{$i} #{$speed}s linear infinite;
+
+        .random-shape:after {
+            margin: #{$shape-size}rem;
+            color: $shape-color;
+            font-size: #{$shape-size * 0.3}rem;
+            content: $shape-type;
+        }
+    }
+}
+
+
