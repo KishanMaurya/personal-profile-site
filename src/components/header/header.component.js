@@ -37,7 +37,7 @@ const Header = () => {
           </p>
           </div>
 
-          <a href="#projects" className="mb-5"><Button>See Sample Projects</Button></a>
+          <a href="#projects" className="mb-5" style="margin-bottom: 20px;"><Button>See Sample Projects</Button></a>
 
         </div>
 
