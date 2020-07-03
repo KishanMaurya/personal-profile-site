@@ -1,6 +1,6 @@
 
 <h1 align="center">
-  Codes With Linda: My Portfolio Site + Blog
+  Codes With Mansi Agarawal: My Portfolio Site + Blog
 </h1>
 
 This website was built with the hello world starter from Gatsby. If you'll like to use this project as a template for your own website, don't forget to give me a shout out.
@@ -11,7 +11,7 @@ This website was built with the hello world starter from Gatsby. If you'll like 
     Fork and clone Repo
 
     ```shell
-    git clone https://github.com/Linda-Ikechukwu/Personal-Site.git
+    git clone https://github.com/KishanMaurya/personal-profile-site.git
     ```
 
 2.  **Start developing.**
@@ -68,16 +68,5 @@ A quick look at the top-level files and directories you'll see in this Gatsby pr
 
 11. **`package.json`**: A manifest file for Node.js projects, which includes things like metadata (the project’s name, author, etc). This manifest is how npm knows which packages to install for your project.
 
-12. **`README.md`**: A text file containing useful reference information about the project.
-
-## 🎓 Learning Gatsby
-
-Looking for more guidance? Full documentation for Gatsby lives [on the website](https://www.gatsbyjs.org/). Here are some places to start:
-
-## 💫 Deploy
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/gatsbyjs/gatsby-starter-hello-world)
-
-[![Deploy with ZEIT Now](https://zeit.co/button)](https://zeit.co/import/project?template=https://github.com/gatsbyjs/gatsby-starter-hello-world)
 
 
