@@ -34,8 +34,15 @@ class Info extends React.Component {
                   </p>
                     <ul className="info__list">
                         <li className="info__list__item">
-                            <h4><a href="#">Port Harcourt School Of AI</a></h4><span></span>
-                            <p>Community Manager </p>
+                            <h4><a href="#">Participated in Paper Presentation</a></h4><span></span>
+                            <p>(Title-Facebook Marketplace: A new tool for effective
+                                marketing communication) in 2 days National Conference on “Social Networking: A tool for
+                                transition from conventional to contemporary”. </p>
+                        </li>
+                        <li className="info__list__item">
+                            <h4><a href="#">Amazon Services Solution Architect</a></h4><span></span>
+                            <p>Completed the Amazon Services Solution Architect certification training of 3 days in
+                                association with SoftTech Data Securities.</p>
                         </li>
                     </ul>
                 </div>
@@ -45,21 +52,29 @@ class Info extends React.Component {
                     If you'll like me to speak at your event, please <a className="inline-link" href="#contact">send me a message</a>
                     </p>
                     <ul className="info__list">
-                    <li className="info__list__item">
-                            <h4><a  href="#">Architecting Scalable and Maintainable Sass</a></h4><span></span>
-                            <p>June 2020. Women Who Code - Connect Digital, Global, Online</p>
+                        <li className="info__list__item">
+                                <h4><a  href="#">Introduction to Block chains and Software Security</a></h4><span></span>
+                                <p>Attended a 15 day workshop organized by IIT Kanpur on “Introduction to Block chains and Software Security”.</p>
+                            </li>
+
+                        <li className="info__list__item">
+                            <h4><a  href="#">Introduction to Information Retrieval and Data Mining</a></h4><span></span>
+                            <p>Attended a 15 day workshop organized by IIT Kanpur on “Introduction to Information Retrieval and Data Mining”.</p>
+                        </li>
+
+                        <li className="info__list__item">
+                            <h4><a  href="#">Programming Contest</a></h4><span></span>
+                            <p>Runner-up in Programming Contest arranged by DYPIMR in 2017</p>
+                        </li>
+                        
+                        
+                        <li className="info__list__item">
+                            <h4><a  href="#">Story Writing Competition</a></h4><span></span>
+                            <p>Runner-up in Story Writing Competition organized by Morya Youth Festival in 2019.</p>
                         </li>
                         <li className="info__list__item">
-                            <h4><a  href="#">Automating Responsive Images in HTML</a></h4><span></span>
-                            <p>January 2020. Fronstack, Lagos, Nigeria</p>
-                        </li>
-                        <li className="info__list__item">
-                            <h4><a  href="#">Contributing to Open Source; First Steps</a></h4><span></span>
-                            <p>November 2019. DevFest SE Oko, Nigeria</p>
-                        </li >
-                        <li className="info__list__item">
-                            <h4><a  href="#">Design For Developers</a></h4><span></span>
-                            <p>July 2019. NerdFest UNN, Enugu, Nigeria</p>
+                            <h4><a  href="#">“Fun Riddle” on Actions in Google Assistant.</a></h4><span></span>
+                            <p>Developed and successfully published “Fun Riddle” on Actions in Google Assistant.</p>
                         </li>
                     </ul>
                 </div>
