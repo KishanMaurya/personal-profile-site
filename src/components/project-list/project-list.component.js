@@ -79,7 +79,7 @@ days National Conference on” Transition toward Digital Ecosystem-Managing the 
 held in January 2017 published in The Journal of Business Studies and Research with
 ISSN:2455-233X.</p> "
                    image="/newsify.png"
-                   techsUsed={['HTML', 'CSS','Node JS','Express','EJS']}
+                   techsUsed={['BHIM App', 'Digitalization','Business','Research','ISSN:2455-233X']}
                    githubLink="#"
                 />
                 <ProjectItem
@@ -87,7 +87,7 @@ ISSN:2455-233X.</p> "
                    projectLink="#"
                    description="<p>Attended a 15 day workshop organized by IIT Kanpur on “Introduction to Block chains and Software Security”.</p>"
                    image="/labrinthe.png"
-                   techsUsed={['Sass', 'JSX','React','Redux','React-Redux', 'Firebase Firestore', 'Firebase Authentication', 'Localstorage',]}
+                   techsUsed={['Block chains', 'AI','React']}
                    githubLink="#"
                 />
                 

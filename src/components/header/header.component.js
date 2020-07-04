@@ -31,9 +31,9 @@ const Header = () => {
           </div>
           <div className="header__description">
             <p>
-              Asides being a myraid of a couple of awesome things,
-              I build stuff that you see on the web and sometimes deploy,
-              deliver or manage stuff on the cloud. I write stuff too - when I feel like it.
+              Bitwise Solutions Pvt. Ltd. is a global IT service provider in Data warehouse, business intelligence, .Net,
+              Java and has offices in USA, Australia and India. It consults and delivers solutions in the domain such as
+              Banking, Credit cards, financial services, Insurance, Healthcare and Media.
           </p>
           </div>
 
