@@ -4,6 +4,17 @@
 </h1>
 
 This website was built with the hello world starter from Gatsby. If you'll like to use this project as a template for your own website, don't forget to give me a shout out.
+## 🚀 Screen shot
+
+![Screenshot_5](https://user-images.githubusercontent.com/45098599/86510113-89425e80-be0a-11ea-8b0c-9383725e5973.png)
+
+![Screenshot_6](https://user-images.githubusercontent.com/45098599/86510114-8a738b80-be0a-11ea-911c-7bfb38003d55.png)
+
+![Screenshot_7](https://user-images.githubusercontent.com/45098599/86510116-8ba4b880-be0a-11ea-8091-8e8bf7222e2b.png)
+
+![Screenshot_8](https://user-images.githubusercontent.com/45098599/86510117-8cd5e580-be0a-11ea-8aa6-3661aa1b0d9f.png)
+
+
 
 ## 🚀 Quick start
 
